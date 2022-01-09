@@ -1,0 +1,59 @@
+body {
+  justify-content: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+  padding-bottom: 1em;
+  border: solid 1px black;
+  width: 22em;
+}
+
+#heading {
+  background-color: blueviolet;
+  padding: 1em;
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+
+#inputs {
+  display: flex;
+  gap: 2em;
+  width: 20em;
+  justify-content: center;
+}
+
+#minimumnumber,
+#maxnumber {
+  padding: 0 2em;
+  width: 100%;
+  text-align: center;
+}
+
+#minnumb,
+#maxinum {
+  width: 50%;
+}
+
+#genbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#randomForm {
+  padding: 0em 1em;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
